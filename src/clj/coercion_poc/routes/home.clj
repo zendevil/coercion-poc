@@ -33,7 +33,7 @@
 
 (defn home-routes []
   [""
-   {:middleware [;;middleware/wrap-formats
+   {:middleware [middleware/wrap-formats
                  ;; swagger features
                  swagger/swagger-feature
                  ;; query-params & form-params
